@@ -2,8 +2,8 @@ function determineResult(input1, input2, input3, input4,input5) {
 
   const valTotal = input1 + input2 + input3 + input4 + input5;
 
-  if (valTotal <= 7) {
-    language = "C#" ;
+  if (valTotal <= 8) {
+    language = "Csharp" ;
   }
   else if (valTotal<= 12) {
     language = "JavaScript"
@@ -24,18 +24,24 @@ $(document).ready(function() {
     const weaknesses = parseInt($("input:radio[name=weaknesses]:checked").val());
     let languageResult = determineResult(interests,animal,learning,sport,weaknesses);
 
-    if (languageResult === "C#") {
+    if (languageResult === "Csharp") {
       $("#quizResults").hide();
       $("#quizResults").show();
-      $("#languageResult").text("C#");
+      $("#languageResult").text("Csharp");
+      $(".image").hide();
+      $("#Csharp").show();
     } else if (languageResult === "JavaScript") {
       $("#quizResults").hide();
       $("#quizResults").show();
       $("#languageResult").text("JavaScript")
+      $(".image").hide();
+      $("#JavaScript").show();
     } else {
       $("#quizResults").hide();
       $("#quizResults").show();
       $("#languageResults").text("Ruby")
+      $(".image").hide();
+      $("#Ruby").show();
     }
     console.log(languageResult);
   });
