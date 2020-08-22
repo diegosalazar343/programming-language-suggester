@@ -22,6 +22,12 @@ h1 {
   text-align: center;
 }
 
+.container {
+  background: rgb(14, 128, 69);
+
+text-align: left;
+color: rgba(255, 255, 255, 0.899);
+}
 body {
-  background-image: url("/Users/diegosalazar/Desktop/programming-landing-suggester/images/beautiful-color-gradients-backgrounds-001-warm-flame.png")
+  background: url(/images/martin-sanchez-ll7i0Tyab04-unsplash.jpg);
 }
