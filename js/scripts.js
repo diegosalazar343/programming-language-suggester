@@ -27,13 +27,13 @@ $(document).ready(function() {
     if (languageResult === "Csharp") {
       $("#quizResults").hide();
       $("#quizResults").show();
-      $("#languageResult").text("Csharp");
+      $("#languageResults").text("Csharp");
       $(".image").hide();
       $("#Csharp").show();
     } else if (languageResult === "JavaScript") {
       $("#quizResults").hide();
       $("#quizResults").show();
-      $("#languageResult").text("JavaScript")
+      $("#languageResults").text("JavaScript")
       $(".image").hide();
       $("#JavaScript").show();
     } else {
